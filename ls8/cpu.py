@@ -92,7 +92,7 @@ class CPU:
         ), end='')
 
         for i in range(8):
-            print(" %02X" % self.reg[i], end='')
+            print(" %02X" % self.memory[i], end='')
 
         print()
 
